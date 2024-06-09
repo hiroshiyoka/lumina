@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Etalase::index');
 
 $routes->get('/auth/login', 'Auth::login');
 $routes->post('/auth/login', 'Auth::login');
